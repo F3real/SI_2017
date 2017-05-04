@@ -689,9 +689,9 @@ Shadow=0</a:DisplayPreferences>
 <a:Code>Zahtjevi</a:Code>
 <a:CreationDate>1493917059</a:CreationDate>
 <a:Creator>Phenom II</a:Creator>
-<a:ModificationDate>1493917059</a:ModificationDate>
-<a:Modifier>Phenom II</a:Modifier>
-<a:Location>file:///C|/Users/Phenom II/Desktop/New Folder (2)/SI_2017-master/Zahtjevi.rqm</a:Location>
+<a:ModificationDate>1493876929</a:ModificationDate>
+<a:Modifier>error</a:Modifier>
+<a:Location>file:///%[PRJ_ROOT_DIR]%/Zahtjevi.rqm</a:Location>
 <a:Extension>rqm</a:Extension>
 <a:ModelDocument.ModelID>8F959712-B304-4D0E-A314-491840E699F2</a:ModelDocument.ModelID>
 <a:ModelClassID>DABA1E0A-0922-4B05-B7F0-B0BD7A73FD33</a:ModelClassID>

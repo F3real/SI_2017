@@ -408,7 +408,7 @@ Shadow=0</a:DisplayPreferences>
 <c:Requirements>
 <o:Requirement Id="o4">
 <a:ObjectID>8C9D7107-668B-4F7C-8512-E825A76E5FF6</a:ObjectID>
-<a:Requirement.Title>Rad sa opisem skladišta informacionih resursa</a:Requirement.Title>
+<a:Requirement.Title>Rad sa opisom skladišta informacionih resursa</a:Requirement.Title>
 <a:Code>REQ_0016</a:Code>
 <a:CreationDate>1493846275</a:CreationDate>
 <a:Creator>Overdose</a:Creator>
@@ -971,7 +971,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Creator>Phenom II</a:Creator>
 <a:ModificationDate>1495578090</a:ModificationDate>
 <a:Modifier>Phenom II</a:Modifier>
-<a:Comment>Administrator ima mogućnost rada sa korisničkim nalozima (kreiranje, brisanje i modifikacija), rad sa nioima pristupa (kreiranje, modifikacija i dodjela pristupa), kao i rada sa opisem skladišta informacionih resursa (kreiranje, modifikacija, brisanje, validacija).</a:Comment>
+<a:Comment>Administrator ima mogućnost rada sa korisničkim nalozima (kreiranje, brisanje i modifikacija), rad sa nioima pristupa (kreiranje, modifikacija i dodjela pristupa), kao i rada sa opisom skladišta informacionih resursa (kreiranje, modifikacija, brisanje, validacija).</a:Comment>
 </o:GlossaryTerm>
 <o:GlossaryTerm Id="o49">
 <a:ObjectID>ADE4EF54-C076-4E57-AEF3-FC0515698129</a:ObjectID>

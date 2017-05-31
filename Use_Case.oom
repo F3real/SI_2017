@@ -2790,8 +2790,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 </o:Package>
 <o:Package Id="o72">
 <a:ObjectID>EBC6AF6C-2598-4D87-870E-62D6ECD0E355</a:ObjectID>
-<a:Name>01_Use_case_Rad sa opisem skladišta informacionih resursa</a:Name>
-<a:Code>01UseCaseRadSaOpisemSkladistaInformacionihResursa</a:Code>
+<a:Name>01_Use_case_Rad sa opisom skladišta informacionih resursa</a:Name>
+<a:Code>01UseCaseRadSaopisomSkladistaInformacionihResursa</a:Code>
 <a:CreationDate>1495302082</a:CreationDate>
 <a:Creator>Phenom II</a:Creator>
 <a:ModificationDate>1495980752</a:ModificationDate>
@@ -2803,8 +2803,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <c:UseCaseDiagrams>
 <o:UseCaseDiagram Id="o73">
 <a:ObjectID>385EBE94-266D-4503-A9ED-BEE394878066</a:ObjectID>
-<a:Name>Rad sa opisem skladišta informacionih resursa</a:Name>
-<a:Code>Rad_sa_opisem_skladista_informacionih_resursa</a:Code>
+<a:Name>Rad sa opisom skladišta informacionih resursa</a:Name>
+<a:Code>Rad_sa_opisom_skladista_informacionih_resursa</a:Code>
 <a:CreationDate>1495302082</a:CreationDate>
 <a:Creator>Phenom II</a:Creator>
 <a:ModificationDate>1495980752</a:ModificationDate>
@@ -3485,8 +3485,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 </o:UseCase>
 <o:UseCase Id="o94">
 <a:ObjectID>2F33E3F9-E80B-44FB-BCB4-12735AAB4C74</a:ObjectID>
-<a:Name>Rad sa opisem skladišta informacionih resursa</a:Name>
-<a:Code>Rad_sa_opisem_skladista_informacionih_resursa</a:Code>
+<a:Name>Rad sa opisom skladišta informacionih resursa</a:Name>
+<a:Code>Rad_sa_opisom_skladista_informacionih_resursa</a:Code>
 <a:CreationDate>1495302377</a:CreationDate>
 <a:Creator>Phenom II</a:Creator>
 <a:ModificationDate>1495559378</a:ModificationDate>
@@ -8306,8 +8306,8 @@ LABL 0 Arial,8,N</a:FontList>
 </o:StatechartDiagram>
 <o:StatechartDiagram Id="o373">
 <a:ObjectID>EABF96F5-8BD3-422C-B588-CF9115A00085</a:ObjectID>
-<a:Name>04_State_Rad sa opisem skladišta informacionih resura</a:Name>
-<a:Code>04_State_Rad_sa_opisem_skladista_informacionih_resura</a:Code>
+<a:Name>04_State_Rad sa opisom skladišta informacionih resura</a:Name>
+<a:Code>04_State_Rad_sa_opisom_skladista_informacionih_resura</a:Code>
 <a:CreationDate>1495979293</a:CreationDate>
 <a:Creator>Phenom II</a:Creator>
 <a:ModificationDate>1496077497</a:ModificationDate>

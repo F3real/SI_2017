@@ -1,0 +1,27 @@
+{
+	[
+		{ 
+			"name": "string",
+			"type": "string",
+			"path": "string",
+			"username": "string",
+			"password": "string",
+			"delimiter": "string",
+			"containsHeader": "boolean",
+			"blocks": [
+				{ 
+					"name": "string",
+					"references": [
+						"blockId": "string",
+						"referencedParameters": [
+							{
+								"name": "string"
+							}
+						],
+					"canBeDeleted": "boolean",
+					"canBeModified": "boolean"
+					]
+				}
+			]
+	]
+}

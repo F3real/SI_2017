@@ -1,0 +1,20 @@
+/***********************************************************************
+ * Module:  Node.java
+ * Author:  error
+ * Purpose: Defines the Class Node
+ ***********************************************************************/
+package net.etfbl.meta.model;
+import java.util.*;
+
+/** @pdOid 9426b682-b528-4283-b7b0-be1cdc684a1f */
+public class Node {
+   /** @pdOid e403aafa-20ef-46f8-92fe-e7b4ff0d7fda */
+   private String key;
+   /** @pdOid 2219944d-5fb3-4fd9-828c-7f2eb394cb93 */
+   private String value;
+   /** @pdOid d586bc6b-4fe2-4c9e-9322-2f62c20dfc85 */
+   private Boolean canBeModified;
+   /** @pdOid 6551052b-4089-4b8a-ba8a-549fc1a7e863 */
+   private Boolean canBeDeleted;
+
+}

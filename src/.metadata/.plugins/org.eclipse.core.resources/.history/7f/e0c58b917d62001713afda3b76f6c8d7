@@ -1,0 +1,5 @@
+package net.etfbl.meta.model;
+
+public class ForeignKey {
+
+}

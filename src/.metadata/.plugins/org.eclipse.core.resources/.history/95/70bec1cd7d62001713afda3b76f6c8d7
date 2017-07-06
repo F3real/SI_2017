@@ -1,0 +1,12 @@
+package net.etfbl.meta.model;
+
+import java.util.List;
+
+public class MetaDescrition {
+	protected String name;
+	protected String type;
+	protected String userName;
+	protected String password;
+	protected String delimiter;
+	protected List<MetaSchemaParameter> parameters;
+}

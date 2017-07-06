@@ -1,0 +1,6 @@
+package net.etfbl.meta.model;
+
+public class MetaSchemaParameter {
+	private String name;
+	private String type;
+}

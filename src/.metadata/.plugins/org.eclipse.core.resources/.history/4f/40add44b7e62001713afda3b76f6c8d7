@@ -1,0 +1,9 @@
+package net.etfbl.meta.factory;
+
+public class MetaDescriptionFactory {
+	private static MetaDescriptionFactory metaFactory;
+	
+	private MetaDescriptionFactory(){
+		
+	}
+}

@@ -1,0 +1,5 @@
+package net.etfb.meta.exeptions;
+
+public class TypeException {
+
+}

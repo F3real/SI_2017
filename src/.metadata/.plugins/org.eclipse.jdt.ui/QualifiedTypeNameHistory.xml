@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="net.etfbl.meta.model.MetaDescrition"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="javax.swing.tree.TreeNode"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.factory.MetaDescriptionFactory"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.controllers.InfResourceHandler"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.factory.ResourceHandlerFactory"/>
+<fullyQualifiedTypeName name="net.etfb.meta.exeptions.TypeException"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.controllers.CsvResourceHandler"/>
+<fullyQualifiedTypeName name="com.opencsv.CSVReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.nio.file.Path"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.model.MetaDescrition"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.model.MetaSchemaParameter"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

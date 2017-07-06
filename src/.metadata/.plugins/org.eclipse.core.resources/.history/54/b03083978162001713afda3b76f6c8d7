@@ -1,0 +1,32 @@
+package net.etfbl.meta.factory;
+
+import net.etfb.meta.exeptions.TypeException;
+import net.etfbl.meta.controllers.InfResourceHandler;
+import net.etfbl.meta.model.MetaDescrition;
+
+public class ResourceHandlerFactory {
+	private static final ResourceHandlerFactory factory = new ResourceHandlerFactory();
+	
+	private ResourceHandlerFactory(){
+		
+	}
+	
+	public static ResourceHandlerFactory getFactoryInstance() throws TypeException{
+		return factory;
+	}
+	
+	public static InfResourceHandler getHandlerInstance(MetaDescrition metaDescription){
+		if (metaDescription.getType() == null){
+			System.err.println("Tip informacionog resursa nije specifikovan");
+			throw new TypeException("Tipa nije specifikovan");
+		}
+		switch (key) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+	}
+}

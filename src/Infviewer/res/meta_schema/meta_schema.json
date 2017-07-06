@@ -1,0 +1,38 @@
+{
+	resources:
+  	[
+      {
+    	name: "TestCsv",
+        type: "csv",
+        delimiter: ";",
+        blocks:
+        [
+          {
+          	parameters:
+            [
+              {
+              	name: "Broj indeksa",
+                type: "string"
+              },
+              {
+              	name: "Ime",
+                type: "string"
+              },
+              {
+              	name: "Prezime",
+                type: "string"
+              },
+              {
+              	name: "Broj bodova",
+                type: "int"
+              },
+              {
+              	name: "Ocjena",
+                type: "int"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -12,8 +12,10 @@
 				{ 
 					"parameters": 
 					[
+                      {
 						"name": "string",
 						"type": "string"
+                      }
 					],
 					"PK":
 					[

@@ -1,27 +1,35 @@
 {
+	resources:
 	[
 		{ 
 			"name": "string",
 			"type": "string",
-			"path": "string",
 			"username": "string",
 			"password": "string",
 			"delimiter": "string",
-			"containsHeader": "boolean",
-			"blocks": [
+			"blocks": 
+			[
 				{ 
-					"name": "string",
-					"references": [
-						"blockId": "string",
-						"referencedParameters": [
-							{
-								"name": "string"
-							}
-						],
-					"canBeDeleted": "boolean",
-					"canBeModified": "boolean"
+					"parameters": 
+					[
+						"name": "string",
+						"type": "string"
+					],
+					"PK":
+					[
+						{ "name":"string" } 
+					],
+					"FK":
+					[
+						{ 
+							"blockName": "string",
+							"parameters": [
+								{ "name": "string"}
+							]
+						}
 					]
 				}
 			]
+		}
 	]
 }

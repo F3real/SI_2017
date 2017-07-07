@@ -1,0 +1,33 @@
+package net.etfbl.meta.controllers;
+
+import java.util.*;
+
+import net.etfbl.meta.parsers.MetaParser;
+
+public class MetaSchemaManager {
+   private MetaParser metaParser;
+   
+   public void initialize() {
+      // TODO: implement
+   }
+   
+   public String load() {
+      // TODO: implement
+      return null;
+   }
+   
+   public void save() {
+      // TODO: implement
+   }
+   
+   public int validate() {
+      // TODO: implement
+      return 0;
+   }
+   
+   public MetaParser getMetaParser() {
+      // TODO: implement
+      return null;
+   }
+
+}

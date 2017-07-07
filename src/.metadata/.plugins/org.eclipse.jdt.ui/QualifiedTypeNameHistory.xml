@@ -4,15 +4,23 @@
 <fullyQualifiedTypeName name="javax.swing.tree.TreeNode"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.factory.MetaDescriptionFactory"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.controllers.InfResourceHandler"/>
-<fullyQualifiedTypeName name="net.etfbl.meta.factory.ResourceHandlerFactory"/>
 <fullyQualifiedTypeName name="net.etfb.meta.exeptions.TypeException"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.controllers.CsvResourceHandler"/>
 <fullyQualifiedTypeName name="com.opencsv.CSVReader"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.nio.file.Path"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="net.etfbl.meta.model.MetaDescrition"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.model.MetaSchemaParameter"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.factory.ResourceHandlerFactory"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.model.MetaDescrition"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.parsers.MetaParser"/>
+<fullyQualifiedTypeName name="com.sun.java.util.jar.pack.Package.File"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="net.etfbl.meta.parsers.JsonParser"/>
+<fullyQualifiedTypeName name="org.json.JSONObject"/>
 </qualifiedTypeNameHistroy>

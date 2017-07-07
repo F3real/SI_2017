@@ -1,0 +1,19 @@
+package net.etfbl.meta.parsers;
+
+import java.util.*;
+
+/** @pdOid fe251f5b-478c-4ac4-9550-d07f57453c37 */
+public class MetaParser {
+   /** @pdOid 5190ff52-4bc6-4a97-97f3-32a61aca3af2 */
+   public String[] getInfResources() {
+      // TODO: implement
+      return null;
+   }
+   
+   /** @pdOid e4ac994a-35a1-4ab0-ab29-2292ad50eed6 */
+   public Object selectInfResource() {
+      // TODO: implement
+      return null;
+   }
+
+}

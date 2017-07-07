@@ -11,15 +11,6 @@ import net.etfbl.meta.controllers.InfResourceHandler;
 import net.etfbl.meta.model.MetaDescrition;
 
 public class ResourceHandlerFactory {
-	private static final ResourceHandlerFactory factory = new ResourceHandlerFactory();
-	
-	private ResourceHandlerFactory(){
-		
-	}
-	
-	public static ResourceHandlerFactory getFactoryInstance() throws TypeException{
-		return factory;
-	}
 	
 	public static InfResourceHandler getHandlerInstance(MetaDescrition metaDescription) throws TypeException, FileNotFoundException{
 		if (metaDescription.getType() == null){

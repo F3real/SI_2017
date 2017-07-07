@@ -7633,3 +7633,64 @@ org.eclipse.papyrus.core.services.ServiceNotFoundException: Can't get the curren
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2017-07-07 08:53:10.207 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data C:\Users\zvjezdan\Desktop\SI_Repo\SI_2017\src -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 1 1 2017-07-07 08:53:34.966
+!MESSAGE Workbench migration started
+
+!ENTRY org.eclipse.ui 4 4 2017-07-07 08:53:35.008
+!MESSAGE Workbench migration failed
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.e4.migration.PerspectiveBuilder.addPartStack(PerspectiveBuilder.java:403)
+	at org.eclipse.ui.internal.e4.migration.PerspectiveBuilder.populate(PerspectiveBuilder.java:128)
+	at org.eclipse.ui.internal.e4.migration.PerspectiveBuilder.createPerspective(PerspectiveBuilder.java:95)
+	at org.eclipse.ui.internal.e4.migration.PerspectiveBuilder.createPerspective(PerspectiveBuilder.java:101)
+	at org.eclipse.ui.internal.e4.migration.WindowBuilder.populate(WindowBuilder.java:156)
+	at org.eclipse.ui.internal.e4.migration.WindowBuilder.createWindow(WindowBuilder.java:88)
+	at org.eclipse.ui.internal.e4.migration.ApplicationBuilder.createApplication(ApplicationBuilder.java:54)
+	at org.eclipse.ui.internal.e4.migration.WorkbenchMigrationProcessor.migrate(WorkbenchMigrationProcessor.java:94)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:649)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-07-07 08:53:38.310
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\zvjezdan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-07-07 12:06:58.933 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-07-07 12:07:06.125
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\zvjezdan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

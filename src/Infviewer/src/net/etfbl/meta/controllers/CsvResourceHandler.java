@@ -1,11 +1,13 @@
 package net.etfbl.meta.controllers;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 import com.opencsv.CSVReader;
 
+import net.etfbl.meta.factory.ResourceHandlerFactory;
 import net.etfbl.meta.model.MetaDescrition;
 import net.etfbl.meta.model.MetaSchemaParameter;
 
@@ -25,11 +27,18 @@ public class CsvResourceHandler extends InfResourceHandler {
 	}
 
 	public String[] getBlocks() {
-		String[] result;
+		String[] result = new String[0];
 		if (reader == null){
 			return result;
 		}
-		String[] header = reader.readNext();
+		String[] header;
+		try {
+			header = reader.readNext();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return result;
+		}
 		List<MetaSchemaParameter> parameters = this.metaDescription.getParameters();
 		int index = 0;
 		for (String item : header){
@@ -60,7 +69,14 @@ public class CsvResourceHandler extends InfResourceHandler {
 		if (reader == null){
 			return result;
 		}
-		List<String[]> allRows = reader.readAll();
+		List<String[]> allRows;
+		try {
+			allRows = reader.readAll();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return result;
+		}
 		String[] header = allRows.get(0);
 		for (int i = 1; i< allRows.size();i++){
 			HashMap<String, String> hashRow = new HashMap<String, String>();
@@ -71,5 +87,11 @@ public class CsvResourceHandler extends InfResourceHandler {
 			result.add(hashRow);
 		}
 		return result;
+	}
+	
+	//samo za testiranje
+	public static void main(String[] args){
+		
+		ResourceHandlerFactory.getHandlerInstance(metaDescription);
 	}
 }

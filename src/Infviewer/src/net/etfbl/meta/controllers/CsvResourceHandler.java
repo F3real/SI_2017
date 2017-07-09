@@ -8,13 +8,13 @@ import java.util.List;
 import com.opencsv.CSVReader;
 
 import net.etfbl.meta.factory.ResourceHandlerFactory;
-import net.etfbl.meta.model.MetaDescrition;
+import net.etfbl.meta.model.MetaDescription;
 import net.etfbl.meta.model.MetaSchemaParameter;
 
 public class CsvResourceHandler extends InfResourceHandler {
 	private CSVReader reader;
 	
-	public CsvResourceHandler(MetaDescrition metaDescription) {
+	public CsvResourceHandler(MetaDescription metaDescription) {
 		this.metaDescription = metaDescription;
 	}
 		

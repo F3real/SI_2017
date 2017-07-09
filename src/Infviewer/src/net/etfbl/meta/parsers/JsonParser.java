@@ -4,7 +4,7 @@ import java.util.*;
 
 import org.json.JSONObject;
 
-import net.etfbl.meta.model.MetaDescrition;
+import net.etfbl.meta.model.MetaDescription;
 
 /** @pdOid 36aad12b-655f-43ba-92b0-456338c19bfb */
 public class JsonParser extends MetaParser {
@@ -14,13 +14,13 @@ public class JsonParser extends MetaParser {
 		metaSchema = json;
 	}
 	@Override
-	public String[] getInfResources() {
+	public List<MetaDescription> getInfResources() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public MetaDescrition selectInfResource(String name) {
+	public MetaDescription selectInfResource(String name) {
 		// TODO Auto-generated method stub
 		return null;
 	}

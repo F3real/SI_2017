@@ -1,7 +1,7 @@
 package net.etfbl.meta.controllers;
 import java.util.HashMap;
 import java.util.List;
-import net.etfbl.meta.model.MetaDescrition;
+import net.etfbl.meta.model.MetaDescription;
 
 /***********************************************************************
  * Module:  InfResourceHandler.java
@@ -11,7 +11,7 @@ import net.etfbl.meta.model.MetaDescrition;
 
 
 public abstract class InfResourceHandler {
-   protected MetaDescrition metaDescription;
+   protected MetaDescription metaDescription;
   
 
    public abstract String[] getBlocks();

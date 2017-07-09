@@ -7,7 +7,7 @@ import java.util.List;
  * @author Spasic
  *
  */
-public class MetaDescrition {
+public class MetaDescription {
 	protected String name;
 	protected String type;
 	protected String userName;
@@ -18,7 +18,7 @@ public class MetaDescrition {
 	protected List<ForeignKey> foregnKey;
 	public static final String CSV_TYPE = "csv";
 	
-	public MetaDescrition(String name, String type, String userName,
+	public MetaDescription(String name, String type, String userName,
 			String password, String delimiter,
 			List<MetaSchemaParameter> parameters, List<String> primaryKey,
 			List<ForeignKey> foregnKey) {

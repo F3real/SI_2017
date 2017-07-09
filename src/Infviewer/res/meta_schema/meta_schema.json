@@ -4,7 +4,7 @@
       {
     	name: "TestCsv",
         type: "csv",
-        delimiter: ";",
+        delimiter: ",",
         blocks:
         [
           {

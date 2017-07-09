@@ -43,25 +43,35 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CsvResourceHandler.java" partName="CsvResourceHandler.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java" title="CsvResourceHandler.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CsvResourceHandler.java" partName="CsvResourceHandler.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java" title="CsvResourceHandler.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="663" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2294" selectionTopPixel="456"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaDescrition.java" partName="MetaDescrition.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/model/MetaDescrition.java" title="MetaDescrition.java" tooltip="Infviewer/src/net/etfbl/meta/model/MetaDescrition.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/model/MetaDescrition.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="471" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InfResourceManager.java" partName="InfResourceManager.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java" title="InfResourceManager.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InfResourceHandler.java" partName="InfResourceHandler.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/controllers/InfResourceHandler.java" title="InfResourceHandler.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/InfResourceHandler.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/controllers/InfResourceHandler.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="502" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaSchemaConstroller.java" partName="MetaSchemaConstroller.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java" title="MetaSchemaConstroller.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResourceHandlerFactory.java" partName="ResourceHandlerFactory.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/factory/ResourceHandlerFactory.java" title="ResourceHandlerFactory.java" tooltip="Infviewer/src/net/etfbl/meta/factory/ResourceHandlerFactory.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/factory/ResourceHandlerFactory.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="507" selectionTopPixel="186"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaSchemaManager.java" partName="MetaSchemaManager.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaManager.java" title="MetaSchemaManager.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/MetaSchemaManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="186"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JsonParser.java" partName="JsonParser.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/parsers/JsonParser.java" title="JsonParser.java" tooltip="Infviewer/src/net/etfbl/meta/parsers/JsonParser.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/parsers/JsonParser.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaParser.java" partName="MetaParser.java" path="E:/Fakultet/Master/Softversko/Repo/SI_2017/src/Infviewer/src/net/etfbl/meta/parsers/MetaParser.java" title="MetaParser.java" tooltip="Infviewer/src/net/etfbl/meta/parsers/MetaParser.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Infviewer/src/net/etfbl/meta/parsers/MetaParser.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -288,7 +298,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@cac97e" ratio="0.23468634" ratioLeft="318" ratioRight="1037" relationship="2" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cac97e" ratio="0.28782287" ratioLeft="390" ratioRight="965" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -327,49 +337,18 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/factory/ResourceHandlerFactory.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Infviewer/res/meta_schema/meta_schema.json"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/controllers/InfResourceHandler.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/model/MetaDescrition.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/controllers/InfResourceHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/factory/ResourceHandlerFactory.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/parsers/JsonParser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Infviewer/src/net/etfbl/meta/parsers/MetaParser.java"/>
 </editors>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position info="not_deleted" x="982" y="8"/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position info="not_deleted" x="1444" y="0"/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position info="not_deleted" x="981" y="0"/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position info="not_deleted" x="658" y="50"/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position info="not_deleted" x="1437" y="0"/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position/>
-</item>
-<item historyLabel="meta_schema.json" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position info="not_deleted" x="1275" y="0"/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position/>
-</item>
-<item historyLabel="ResourceHandlerFactory.java" index="0">
-<position/>
-</item>
 <item historyLabel="ResourceHandlerFactory.java" index="0">
 <position/>
 </item>
@@ -382,104 +361,143 @@
 <item historyLabel="ResourceHandlerFactory.java" index="0">
 <position info="not_deleted" x="507" y="0"/>
 </item>
-<item historyLabel="InfResourceHandler.java" index="2">
+<item historyLabel="InfResourceHandler.java" index="1">
 <position info="not_deleted" x="518" y="15"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="556" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="661" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="508" y="0"/>
 </item>
-<item historyLabel="InfResourceHandler.java" index="2">
+<item historyLabel="InfResourceHandler.java" index="1">
 <position info="not_deleted" x="622" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="InfResourceHandler.java" index="2">
+<item historyLabel="InfResourceHandler.java" index="1">
 <position info="not_deleted" x="622" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="854" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1035" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="948" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1057" y="0"/>
 </item>
-<item historyLabel="InfResourceHandler.java" index="2">
+<item historyLabel="InfResourceHandler.java" index="1">
 <position info="not_deleted" x="963" y="61"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1057" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1541" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1839" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1526" y="16"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1513" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1554" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1578" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1729" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1621" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1621" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1611" y="1"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1616" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="1773" y="0"/>
 </item>
-<item historyLabel="CsvResourceHandler.java" index="3">
+<item historyLabel="CsvResourceHandler.java" index="2">
 <position info="not_deleted" x="455" y="0"/>
 </item>
-<item historyLabel="InfResourceHandler.java" index="2">
+<item historyLabel="InfResourceHandler.java" index="1">
 <position info="not_deleted" x="502" y="0"/>
 </item>
-<item active="true" historyLabel="CsvResourceHandler.java" index="3">
-<position info="not_deleted" x="455" y="0"/>
+<item historyLabel="CsvResourceHandler.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MetaDescrition.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="InfResourceHandler.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ResourceHandlerFactory.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CsvResourceHandler.java" index="6">
+<position info="not_deleted" x="2294" y="0"/>
+</item>
+<item historyLabel="InfResourceManager.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MetaSchemaConstroller.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="InfResourceManager.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MetaSchemaManager.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="JsonParser.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MetaSchemaManager.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="JsonParser.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MetaParser.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="JsonParser.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -498,6 +516,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaParser.java" tooltip="Infviewer/src/net/etfbl/meta/parsers/MetaParser.java">
+<persistable path="/Infviewer/src/net/etfbl/meta/parsers/MetaParser.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JsonParser.java" tooltip="Infviewer/src/net/etfbl/meta/parsers/JsonParser.java">
+<persistable path="/Infviewer/src/net/etfbl/meta/parsers/JsonParser.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaSchemaManager.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/MetaSchemaManager.java">
+<persistable path="/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaSchemaConstroller.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java">
+<persistable path="/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InfResourceManager.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java">
+<persistable path="/Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CsvResourceHandler.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java">
+<persistable path="/Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="meta_schema.json" tooltip="Infviewer/res/meta_schema/meta_schema.json">
 <persistable path="/Infviewer/res/meta_schema/meta_schema.json"/>
 </file>
@@ -522,26 +558,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaDescrition.java" tooltip="Infviewer/src/net/etfbl/meta/model/MetaDescrition.java">
 <persistable path="/Infviewer/src/net/etfbl/meta/model/MetaDescrition.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CsvResourceHandler.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java">
-<persistable path="/Infviewer/src/net/etfbl/meta/controllers/CsvResourceHandler.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="TestCsv.csv" tooltip="Infviewer/res/TestCsv.csv">
 <persistable path="/Infviewer/res/TestCsv.csv"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InfResourceManager.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java">
-<persistable path="/Infviewer/src/net/etfbl/meta/controllers/InfResourceManager.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MetaSchemaConstroller.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java">
-<persistable path="/Infviewer/src/net/etfbl/meta/controllers/MetaSchemaConstroller.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqliteResourceHandler.java" tooltip="Infviewer/src/net/etfbl/meta/controllers/SqliteResourceHandler.java">
-<persistable path="/Infviewer/src/net/etfbl/meta/controllers/SqliteResourceHandler.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Node.java" tooltip="Infviewer/src/net/etfbl/meta/model/Node.java">
-<persistable path="/Infviewer/src/net/etfbl/meta/model/Node.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JsonParser.java" tooltip="Infviewer/src/net/etfbl/meta/parsers/JsonParser.java">
-<persistable path="/Infviewer/src/net/etfbl/meta/parsers/JsonParser.java"/>
 </file>
 </mruList>
 </workbench>

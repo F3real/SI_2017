@@ -2,9 +2,12 @@ package net.etfbl.meta.parsers;
 
 import java.util.*;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import net.etfbl.meta.model.MetaDescription;
+import net.etfbl.meta.model.MetaSchemaParameter;
 
 /** @pdOid 36aad12b-655f-43ba-92b0-456338c19bfb */
 public class JsonParser extends MetaParser {
@@ -15,8 +18,34 @@ public class JsonParser extends MetaParser {
 	}
 	@Override
 	public List<MetaDescription> getInfResources() {
-		// TODO Auto-generated method stub
-		return null;
+		List<MetaDescription> result = new ArrayList<MetaDescription>();
+		try {
+			JSONArray array = metaSchema.getJSONArray("resources");
+			for (int i=0; i<array.length();i++){
+				JSONObject item = array.getJSONObject(i);
+				String name = item.getString("name");
+				String type = item.getString("type");
+				// TODO user name and password
+				String delimiter = item.getString("delimiter");
+				List<MetaSchemaParameter> paramList = new ArrayList<MetaSchemaParameter>();
+				JSONArray blocks = item.getJSONArray("blocks");
+				for (int j = 0;j< blocks.length();j++){
+					JSONArray parameters = blocks.getJSONObject(j).getJSONArray("parameters");		
+					for (int k=0;k<parameters.length();k++){
+						JSONObject jsonParam = parameters.getJSONObject(k);
+						MetaSchemaParameter param = new MetaSchemaParameter(jsonParam.getString("name"), jsonParam.getString("type"));
+						paramList.add(param);
+					}
+				}
+				//TODO foreign key and primary key
+				MetaDescription desc = new MetaDescription(name, type, null, null, delimiter, paramList, null, null);
+				result.add(desc);
+			}
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override

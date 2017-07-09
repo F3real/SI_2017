@@ -19,7 +19,8 @@ public class ResourceHandlerFactory {
 		}
 		if (metaDescription.getType().equals(MetaDescription.CSV_TYPE)){
 			CsvResourceHandler handler = new CsvResourceHandler(metaDescription);
-			CSVReader reader = new CSVReader(new FileReader("src/res/meta_schema/" + metaDescription.getName() + ".csv"), metaDescription.getDelimiter().charAt(0));
+			String path = "./res/" + metaDescription.getName() + ".csv";
+			CSVReader reader = new CSVReader(new FileReader(path), metaDescription.getDelimiter().charAt(0));
 			handler.setReader(reader);
 			return handler;
 		}

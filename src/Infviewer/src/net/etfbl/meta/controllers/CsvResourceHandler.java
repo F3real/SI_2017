@@ -1,5 +1,7 @@
 package net.etfbl.meta.controllers;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,9 +9,11 @@ import java.util.List;
 
 import com.opencsv.CSVReader;
 
+import net.etfbl.meta.exceptions.TypeException;
 import net.etfbl.meta.factory.ResourceHandlerFactory;
 import net.etfbl.meta.model.MetaDescription;
 import net.etfbl.meta.model.MetaSchemaParameter;
+import net.etfbl.meta.parsers.JsonParser;
 
 public class CsvResourceHandler extends InfResourceHandler {
 	private CSVReader reader;
@@ -91,7 +95,26 @@ public class CsvResourceHandler extends InfResourceHandler {
 	
 	//samo za testiranje
 	public static void main(String[] args){
-		
-		ResourceHandlerFactory.getHandlerInstance(metaDescription);
+		MetaSchemaManager metaManager = new MetaSchemaManager();
+		File f = new File("./res/meta_schema/meta_schema.json");
+		metaManager.initialize(f);
+		JsonParser parser = (JsonParser) metaManager.getMetaParser();
+		List<MetaDescription> descList = parser.getInfResources();
+		try {
+			CsvResourceHandler handler = (CsvResourceHandler) ResourceHandlerFactory.getHandlerInstance(descList.get(0));
+			List<HashMap<String, String>> data = handler.getDataBlocks();
+			for (HashMap<String, String> item:data){
+				for (String key: item.keySet()){
+					System.out.println(key + ": " + item.get(key));
+				}
+				System.out.println("--------------------------------");
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TypeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

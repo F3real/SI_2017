@@ -11,7 +11,7 @@ public class SqliteResourceHandler extends InfResourceHandler {
 	}
 
 	@Override
-	public int instert() {
+	public int instert(HashMap<String, String> line) {
 		// TODO Auto-generated method stub
 		return 0;
 	}

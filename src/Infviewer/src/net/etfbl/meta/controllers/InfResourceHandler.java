@@ -18,7 +18,7 @@ public abstract class InfResourceHandler {
 
    public abstract int update();
 
-   public abstract int instert();
+   public abstract int instert(HashMap<String, String> line);
 
    public abstract int delete();
 

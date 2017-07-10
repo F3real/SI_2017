@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="javax.swing.tree.TreeNode"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.factory.MetaDescriptionFactory"/>
 <fullyQualifiedTypeName name="net.etfb.meta.exeptions.TypeException"/>
@@ -25,5 +24,8 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.model.MetaDescription"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.controllers.InfResourceHandler"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="com.opencsv.CSVWriter"/>
 <fullyQualifiedTypeName name="net.etfbl.meta.controllers.CsvResourceHandler"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

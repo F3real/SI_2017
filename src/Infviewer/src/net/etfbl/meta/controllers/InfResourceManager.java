@@ -32,8 +32,7 @@ public class InfResourceManager {
 		// TODO: implement
 	}
 
-	// TODO treba da vrati TreeNode ili nesto slicno
-	public Object getData() {
+	public Tree<Node> getData() {
 		// TODO: implement
 		return null;
 	}

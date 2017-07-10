@@ -1,0 +1,135 @@
+package net.etfbl.meta.controllers;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
+
+import net.etfbl.meta.exceptions.TypeException;
+import net.etfbl.meta.factory.ResourceHandlerFactory;
+import net.etfbl.meta.model.MetaDescription;
+import net.etfbl.meta.model.MetaSchemaParameter;
+import net.etfbl.meta.parsers.JsonParser;
+
+public class CsvResourceHandler extends InfResourceHandler {
+	private CSVReader reader;
+	private CSVWriter writer;
+	
+	public CsvResourceHandler(MetaDescription metaDescription) {
+		this.metaDescription = metaDescription;
+	}
+		
+	public CSVReader getReader() {
+		return reader;
+	}
+
+	public void setReader(CSVReader reader) {
+		this.reader = reader;
+	}
+	
+	public CSVWriter getWriter() {
+		return writer;
+	}
+
+	public void setWriter(CSVWriter writer) {
+		this.writer = writer;
+	}
+
+	public String[] getBlocks() {
+		String[] result = new String[0];
+		if (reader == null){
+			return result;
+		}
+		String[] header;
+		try {
+			header = reader.readNext();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return result;
+		}
+		List<MetaSchemaParameter> parameters = this.metaDescription.getParameters();
+		int index = 0;
+		for (String item : header){
+			if (!item.equals(parameters.get(index).getName())){
+				System.err.println("Parameter " + item + " nije definisan u meta shemi ili je definisan na pogresnom indeksu");
+			}
+		}
+		return header;
+	}
+
+	public int update() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int instert(String[] list) {
+		String line = "";
+		for (String item: list){
+			line += item + metaDescription.getDelimiter();
+		}
+		line = line.substring(0, line.length()-2);
+		writer.writeNext(line);
+		return 0;
+	}
+
+	public int delete() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	public List<HashMap<String, String>> getDataBlocks(){
+		List<HashMap<String, String>> result = new ArrayList<HashMap<String, String>>();
+		if (reader == null){
+			return result;
+		}
+		List<String[]> allRows;
+		try {
+			allRows = reader.readAll();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return result;
+		}
+		String[] header = allRows.get(0);
+		for (int i = 1; i< allRows.size();i++){
+			HashMap<String, String> hashRow = new HashMap<String, String>();
+			for (int j=0;j<header.length;j++){
+				hashRow.put(header[j], allRows.get(i)[j]);
+				
+			}
+			result.add(hashRow);
+		}
+		return result;
+	}
+	
+	//samo za testiranje
+	public static void main(String[] args){
+		MetaSchemaManager metaManager = new MetaSchemaManager();
+		File f = new File("./res/meta_schema/meta_schema.json");
+		metaManager.initialize(f);
+		JsonParser parser = (JsonParser) metaManager.getMetaParser();
+		List<MetaDescription> descList = parser.getInfResources();
+		try {
+			CsvResourceHandler handler = (CsvResourceHandler) ResourceHandlerFactory.getHandlerInstance(descList.get(0));
+			List<HashMap<String, String>> data = handler.getDataBlocks();
+			for (HashMap<String, String> item:data){
+				for (String key: item.keySet()){
+					System.out.println(key + ": " + item.get(key));
+				}
+				System.out.println("--------------------------------");
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TypeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

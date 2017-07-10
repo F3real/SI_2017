@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
 
 import net.etfbl.meta.exceptions.TypeException;
 import net.etfbl.meta.factory.ResourceHandlerFactory;
@@ -17,6 +18,7 @@ import net.etfbl.meta.parsers.JsonParser;
 
 public class CsvResourceHandler extends InfResourceHandler {
 	private CSVReader reader;
+	private CSVWriter writer;
 	
 	public CsvResourceHandler(MetaDescription metaDescription) {
 		this.metaDescription = metaDescription;
@@ -28,6 +30,14 @@ public class CsvResourceHandler extends InfResourceHandler {
 
 	public void setReader(CSVReader reader) {
 		this.reader = reader;
+	}
+	
+	public CSVWriter getWriter() {
+		return writer;
+	}
+
+	public void setWriter(CSVWriter writer) {
+		this.writer = writer;
 	}
 
 	public String[] getBlocks() {
@@ -58,8 +68,22 @@ public class CsvResourceHandler extends InfResourceHandler {
 		return 0;
 	}
 
-	public int instert() {
-		// TODO Auto-generated method stub
+	public int instert(HashMap<String, String> line) {
+		String[] newLine = new String[metaDescription.getParameters().size()];
+		for (int i = 0;i<metaDescription.getParameters().size();i++){
+			for (String item : line.keySet()){
+				if (item.equals(metaDescription.getParameters().get(i).getName())){
+					newLine[i] = line.get(item);
+				}
+			}
+		}
+		writer.writeNext(newLine);
+		try {
+			writer.flush();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return 0;
 	}
 
@@ -74,7 +98,7 @@ public class CsvResourceHandler extends InfResourceHandler {
 			return result;
 		}
 		List<String[]> allRows;
-		try {
+		try {	
 			allRows = reader.readAll();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -109,10 +133,21 @@ public class CsvResourceHandler extends InfResourceHandler {
 				}
 				System.out.println("--------------------------------");
 			}
+			
+			HashMap<String, String> newLine = new HashMap<String, String>();
+			newLine.put("Broj indeksa", "9966/11");
+			newLine.put("Ime", "Alen");
+			newLine.put("Prezime", "Grgic");
+			newLine.put("Broj bodova", "75");
+			newLine.put("Ocjena", "8");
+			handler.instert(newLine);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (TypeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
